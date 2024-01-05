@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+body{
+    background-color: white;
+    font-size: 60px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+main{
+    background-color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #f2f2f2;
+    color: #6b7682;
+    height: 60px;
+    border-bottom: 1px solid #4b4e51;
+    font-size: 18px;
+}
+
+.link{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #585a5b ;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn{
+    background-color: #1a73e8;
+    padding: 8px 15px 8px 15px;
+    color:white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background-color: #1A73E8E8;
+}
+
+ico-icon{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    transform: .3s;
+}
+
+ico-icon{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.btn-cinza{
+    font-size: 13px;
+    text-decoration: none;
+    background-color: #dcdcdc;
+    padding: 8px 20px 8px 20px;
+    color: #4b4e51;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.pesquisa{
+    height: 40px;
+    min-width: 50vw;
+    max-width: 75vw;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+}
+img{
+    margin-bottom: 25px;
+}

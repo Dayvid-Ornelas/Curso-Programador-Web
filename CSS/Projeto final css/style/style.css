@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+    background-color: brown;
+}
+
+.container{
+    min-height: 100%;
+}
+
+.header{
+    width: 100%;
+    min-height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 8px 15px;
+}
+
+.headerButtons{
+    display: flex;
+    gap: 15px;
+}
+
+.buttons{
+    font-size: 16px;
+    padding: 6px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buttons:hover{
+    border-bottom: 2px solid white;
+}
+
+.titleImg{
+    width: 100px;
+}
+
+.main{
+    width: 1200px ;
+    margin: 0px auto;
+    background-color: #ffffff;
+    padding: 50px 300px 50px 300px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-size: 20px;
+    padding: 8px;
+}
+
+.bubTitle{
+    font-size: 18px;
+    padding: 6px;
+}
+
+.descrition{
+    font-size: 19px;
+    padding: 3px;
+}
+
+.imgprincipal{
+    width: 600px;
+    padding: 20px;
+}
+
+.footer{
+    width: 100%;
+    min-width: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 15px ;
+}

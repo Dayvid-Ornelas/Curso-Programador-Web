@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="x-icon">
+    <script src="./iphone.js" defer></script>
+    <title>Iphone</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#"><img src="./img/logo.png" alt="Logo Iphone" class="logo"></a>
+            <ul class="nav-menu">
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#" class="check">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">Só na Apple</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="./img/iphone13.png" alt="iPhone13" class="iphone13">
+                <h1>Seu novo superpoder</h1>
+                <p>Chip com velocidade impressionante. Um aumento notável da duração da bateria.
+                E novos recusos de foto e vídeos. <br> No iPhone 13, você faz coisas que nunca pôde.
+                E ele ainda vem em dois tamanhos.</p>
+                <h2>A partir de R$6.599,00</h2>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                    <h3>Escolha sua cor favorita</h3>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="imgChange('img/green.png'); circleChange('#384937')"></span>
+                    <span id="pink" onclick="imgChange('img/pink.png'); circleChange('#f8ddd6')"></span>
+                    <span id="blue" onclick="imgChange('img/blue.png'); circleChange('#225f7e')"></span>
+                    <span id="black" onclick="imgChange('img/black.png'); circleChange('#192028')"></span>
+                    <span id="white" onclick="imgChange('img/white.png'); circleChange('#f7f2ee')"></span>
+                    <span id="red" onclick="imgChange('img/red.png'); circleChange('#ae0617')"></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="./img/green.png" alt="Imagem do Iphone" id="phone">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

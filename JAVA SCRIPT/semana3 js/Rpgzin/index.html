@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rpg do D</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h1>Criação da equipe</h1>
+    <hr>
+    <h2>Criação de personagem</h2>
+    <p>
+        <label for="orige">Raça: </label>
+        <input type="text" name="orige" id="orige">
+        <label for="name">Nome: </label>
+        <input type="text" name="name" id="name">
+        <label for="head">Hp: </label>
+        <input type="text" name="head" id="head">
+        <button onclick="addPersonag()">Adicionar</button>
+    </p>
+
+    <h2>Espulsar da equipe</h2>
+    <p>
+        <label for="headToRemove">Hp: </label>
+        <input type="text" name="headToRemove" id="headToRemove">
+        <button onclick="removePersonag()">Remover</button>
+    </p>
+
+    <h2>Equipe</h2>
+    <ul id="equipList">
+
+    </ul>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    width: 500px;
+    margin: 0px auto;
+    background-color: rgb(16, 202, 131);
+    padding: 0 5px 0 5px; 
+    border: 3px solid rgb(216, 196, 196);
+}
+
+h3{
+    color: aquamarine;
+}
+
+.post-contanier{
+    width: 75%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.post-coment{
+    width: 90%;
+    font-weight: normal;
+}
+
+.pots{
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}

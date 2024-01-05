@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.button{
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    width: 110px;
+    padding: 15px;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.920);
+}
+
+#red{
+    color: red;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#green{
+    color: green;
+}
+
+#automatic{
+    color: white;
+}
